@@ -4,6 +4,7 @@ interface Veiculo{
     entrada: Date | string;
 }
 
+
 (function(){
     const $ = (query: string): HTMLInputElement | null => 
     document.querySelector(query);

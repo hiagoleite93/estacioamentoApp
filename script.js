@@ -1,3 +1,4 @@
+"use strict";
 (function () {
     var _a;
     const $ = (query) => document.querySelector(query);
@@ -58,5 +59,6 @@
             return;
         }
         patio().adicionar({ nome, placa, entrada: new Date().toISOString() }, true);
+
     });
 })();
